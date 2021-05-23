@@ -6,6 +6,7 @@ var confirmUpperCase;
 var confirmLowerCase;
 var confirmSpecial;
 var allChars;
+
 // variable values
 numeric = '0123456789';
 upperCase = 'abcdefghijklmnopqrstuvwxyz';
@@ -123,6 +124,7 @@ var generatePassword = function () {
 
   console.log(allChars);
 
+  //random iteration
   var pwd = [];
   for (var i = 0; i< promptLength; i++) {
     var pwds = allChars[Math.floor(Math.random()*allChars.length)];
@@ -130,10 +132,9 @@ var generatePassword = function () {
     console.log("pwd " + pwd);
   }
 
-
+  // final print password
   var foo = pwd.join('');
   console.log("password " + foo);
- 
   return foo;
 }
 
