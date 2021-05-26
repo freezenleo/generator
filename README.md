@@ -7,4 +7,5 @@ A great password generator for people who cannot make up their mind at the time 
 
 
 Repository url: https://github.com/freezenleo/generator.git
+<br/>
 Published page:https://freezenleo.github.io/generator/
